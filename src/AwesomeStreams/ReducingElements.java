@@ -23,11 +23,11 @@ public class ReducingElements {
 /*
 for example factorial of 4
 
-we have an intstream like this : 1  2  3  4  thanks to ranged closed
+we have an int stream like this : 1  2  3  4  thanks to ranged closed
 
 we use Reduce to aggregrate the values from previous step, using a Binary Operator functional interface called accumulator.
 
-steps are visualied as follows
+steps are visualised as follows
 
 1 * 2 3 4
 
