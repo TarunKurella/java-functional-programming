@@ -1,3 +1,5 @@
+package PlayingWithLamdas;
+
 import java.util.function.BiPredicate;
 
 
@@ -22,7 +24,7 @@ class Usingpredicate {
                         (p, minAge) -> {
                             return p.age > minAge;
                         });
-        System.out.println("Person is eligible for voting: " + eligible);
+        System.out.println("PlayingWithLamdas.Person is eligible for voting: " + eligible);
     }
 }
 

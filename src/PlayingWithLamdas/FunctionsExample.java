@@ -1,3 +1,5 @@
+package PlayingWithLamdas;
+
 import java.util.function.Function;
 
 public class FunctionsExample {

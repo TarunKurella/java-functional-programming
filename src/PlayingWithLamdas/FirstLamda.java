@@ -1,3 +1,5 @@
+package PlayingWithLamdas;
+
 interface  Greeting{
     void greet();
 }
@@ -27,7 +29,7 @@ public class FirstLamda {
        //Do we need to create a class for each language, e.g., SpanishGreeting, FrenchGreeting, etc?
 
         //example of lamda
-        wish(()-> System.out.println("wow"));
+        wish(()-> System.out.println("Konichiwa"));
 
     }
 }
@@ -35,7 +37,7 @@ public class FirstLamda {
 /*
 This is a classic object-oriented programming example. Now, what if we want our Firstlamda class to greet in all the languages available?
 
-Isn’t it possible that we don’t create any class and just send a function to the wish(Greeting greeting) method?
+Isn’t it possible that we don’t create any class and just send a function to the wish(PlayingWithLamdas.Greeting greeting) method?
 
 Afcourse then we can use anonymous class. But still, the code will still look cumbersome.
 

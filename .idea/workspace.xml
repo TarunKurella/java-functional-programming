@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beaef697-ba53-4373-8848-cd7cec9b0af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SupplierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AwesomeStreams/FilteringData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingWithLamdas/ByeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingWithLamdas/ConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstLamda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingWithLamdas/FirstLamda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunctionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingWithLamdas/FunctionsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SupplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingWithLamdas/SupplierExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsingPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingWithLamdas/UsingPredicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,60 +39,73 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.FunctionsExample">
-    <configuration name="ByeComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ByeComparator" />
+  <component name="RunManager" selected="Application.FilteringData">
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayingWithLamdas.ConsumerExample" />
       <module name="functional programming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConsumerExample" />
+    <configuration name="FilteringData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AwesomeStreams.FilteringData" />
       <module name="functional programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AwesomeStreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstLamda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayingWithLamdas.FirstLamda" />
+      <module name="functional programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PlayingWithLamdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FunctionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionsExample" />
+      <option name="MAIN_CLASS_NAME" value="PlayingWithLamdas.FunctionsExample" />
       <module name="functional programming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SupplierExample" />
-      <module name="functional programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Usingpredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Usingpredicate" />
+      <option name="MAIN_CLASS_NAME" value="PlayingWithLamdas.SupplierExample" />
       <module name="functional programming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ByeComparator" />
-      <item itemvalue="Application.Usingpredicate" />
       <item itemvalue="Application.SupplierExample" />
       <item itemvalue="Application.ConsumerExample" />
       <item itemvalue="Application.FunctionsExample" />
+      <item itemvalue="Application.FirstLamda" />
+      <item itemvalue="Application.FilteringData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilteringData" />
+        <item itemvalue="Application.FirstLamda" />
         <item itemvalue="Application.FunctionsExample" />
         <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.SupplierExample" />
-        <item itemvalue="Application.Usingpredicate" />
-        <item itemvalue="Application.ByeComparator" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +131,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591095257837</updated>
-      <workItem from="1591095259353" duration="5767000" />
+      <workItem from="1591095259353" duration="6156000" />
+      <workItem from="1591160716527" duration="9000" />
+      <workItem from="1591332336119" duration="1582000" />
     </task>
     <task id="LOCAL-00001" summary="wrote first lamda expression">
       <created>1591099247626</created>
@@ -135,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591103553573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="wrote  Functions for lamdas">
+      <created>1591114751250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591114751250</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,41 +173,46 @@
     <MESSAGE value="wrote first lamda expression" />
     <MESSAGE value="wrote  lamda expression for comparators" />
     <MESSAGE value="wrote  lamda expression using predicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote  lamda expression using predicate" />
+    <MESSAGE value="wrote  Functions for lamdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote  Functions for lamdas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1591100104977">
+    <state x="466" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1591336419545">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="466" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591100104977" />
-    <state x="285" y="52" key="CommitChangelistDialog2" timestamp="1591103553386">
+    <state x="466" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591336419545" />
+    <state x="285" y="52" key="CommitChangelistDialog2" timestamp="1591114751081">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591103553386" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591114638607">
+    <state x="285" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591114751081" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591336511761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591114638607" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591336511761" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591114612352" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591114638604">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591336511760">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591114638604" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591336511760" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591114612351" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591114638604">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591336511760">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591114638604" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591336511760" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591114612350" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591114638605">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591336511761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591114638605" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591336511761" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591114612351" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591103599225">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591114756762">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591103599225" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591114756762" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1591160716387">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591160716387" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591103558269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -1,3 +1,5 @@
+package PlayingWithLamdas;
+
 import java.util.function.DoubleSupplier;
 import java.util.function.Supplier;
 

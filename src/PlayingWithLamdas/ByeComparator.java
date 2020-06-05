@@ -1,6 +1,7 @@
+package PlayingWithLamdas;
+
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 class Person{
     int age ;
@@ -12,7 +13,7 @@ class Person{
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "PlayingWithLamdas.Person{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
@@ -30,9 +31,9 @@ public class ByeComparator {
 
          //before
 
-//        Collections.sort(persons, new Comparator<Person>() {
+//        Collections.sort(persons, new Comparator<PlayingWithLamdas.Person>() {
 //            @Override
-//            public int compare(Person o1, Person o2) {
+//            public int compare(PlayingWithLamdas.Person o1, PlayingWithLamdas.Person o2) {
 //                return Integer.compare(o1.age,o2.age);
 //            }
 //        });
