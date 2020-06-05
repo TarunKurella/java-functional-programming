@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beaef697-ba53-4373-8848-cd7cec9b0af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AwesomeStreams/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AwesomeStreams/ReducingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AwesomeStreams/Slicing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AwesomeStreams/FilteringData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AwesomeStreams/FilteringData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +37,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Mapping">
-    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayingWithLamdas.ConsumerExample" />
-      <module name="functional programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReducingElements">
     <configuration name="FilteringData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AwesomeStreams.FilteringData" />
       <module name="functional programming" />
@@ -71,13 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayingWithLamdas.FunctionsExample" />
-      <module name="functional programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AwesomeStreams.Mapping" />
       <module name="functional programming" />
@@ -91,20 +77,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReducingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AwesomeStreams.ReducingElements" />
+      <module name="functional programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AwesomeStreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slicing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AwesomeStreams.Slicing" />
+      <module name="functional programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AwesomeStreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ConsumerExample" />
-      <item itemvalue="Application.FunctionsExample" />
       <item itemvalue="Application.FirstLamda" />
       <item itemvalue="Application.FilteringData" />
       <item itemvalue="Application.Mapping" />
+      <item itemvalue="Application.Slicing" />
+      <item itemvalue="Application.ReducingElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReducingElements" />
+        <item itemvalue="Application.Slicing" />
         <item itemvalue="Application.Mapping" />
         <item itemvalue="Application.FilteringData" />
         <item itemvalue="Application.FirstLamda" />
-        <item itemvalue="Application.FunctionsExample" />
-        <item itemvalue="Application.ConsumerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +144,7 @@
       <updated>1591095257837</updated>
       <workItem from="1591095259353" duration="6156000" />
       <workItem from="1591160716527" duration="9000" />
-      <workItem from="1591332336119" duration="3055000" />
+      <workItem from="1591332336119" duration="4203000" />
     </task>
     <task id="LOCAL-00001" summary="wrote first lamda expression">
       <created>1591099247626</created>
@@ -169,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591336678994</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added mapping streams">
+      <created>1591338328893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338328893</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,49 +200,50 @@
     <MESSAGE value="wrote  lamda expression using predicate" />
     <MESSAGE value="wrote  Functions for lamdas" />
     <MESSAGE value="refactored packages a bit&#10;Added Filterting code using streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored packages a bit&#10;Added Filterting code using streams" />
+    <MESSAGE value="Added mapping streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mapping streams" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1591337855164">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591337855164" />
-    <state x="285" y="52" key="CommitChangelistDialog2" timestamp="1591336678590">
+    <state x="285" y="52" key="CommitChangelistDialog2" timestamp="1591338328756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591336678590" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591338181378">
+    <state x="285" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591338328756" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591351834355">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591338181378" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591351834355" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591114612352" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591338181377">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591351834354">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591338181377" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591351834354" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591114612351" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591338181377">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591351834354">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591338181377" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591351834354" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591114612350" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591338181378">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591351834355">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591338181378" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591351834355" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591114612351" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591336725432">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591338342947">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591336725432" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591338342947" />
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1591160716387">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591160716387" />
-    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591103558269">
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591338333282">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1591103558269" />
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1591338333282" />
     <state x="386" y="85" width="667" height="729" key="find.popup" timestamp="1591337655075">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
