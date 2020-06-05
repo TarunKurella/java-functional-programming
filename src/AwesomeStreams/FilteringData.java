@@ -14,6 +14,7 @@ public class FilteringData {
         students.add(new Student("Koro",50));
 
         //chaining Filter operation. A Filter accepts a Predicate functional interface.
+        //the below set of operations filter for students of age between 20 and 40
         students.stream().filter((s)->s.age>=20).filter((s)->s.age<=40).forEach(System.out::println);
 
 
