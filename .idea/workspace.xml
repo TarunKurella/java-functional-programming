@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beaef697-ba53-4373-8848-cd7cec9b0af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AwesomeStreams/ExcerciseOnStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AwesomeStreams/ExcercieOnStreams2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AwesomeStreams/ExcerciseOnStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AwesomeStreams/ExcerciseOnStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +37,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ExcerciseOnStreams">
-    <configuration name="ExcerciseOnStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AwesomeStreams.ExcerciseOnStreams" />
+  <component name="RunManager" selected="Application.ExcercieOnStreams2">
+    <configuration name="ExcercieOnStreams2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AwesomeStreams.ExcercieOnStreams2" />
       <module name="functional programming" />
       <extension name="coverage">
         <pattern>
@@ -50,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilteringData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AwesomeStreams.FilteringData" />
+    <configuration name="ExcerciseOnStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AwesomeStreams.ExcerciseOnStreams" />
       <module name="functional programming" />
       <extension name="coverage">
         <pattern>
@@ -103,19 +104,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FilteringData" />
       <item itemvalue="Application.Mapping" />
       <item itemvalue="Application.Slicing" />
       <item itemvalue="Application.ReducingElements" />
       <item itemvalue="Application.ExcerciseOnStreams" />
+      <item itemvalue="Application.ExcercieOnStreams2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcercieOnStreams2" />
         <item itemvalue="Application.ExcerciseOnStreams" />
         <item itemvalue="Application.ReducingElements" />
         <item itemvalue="Application.Slicing" />
         <item itemvalue="Application.Mapping" />
-        <item itemvalue="Application.FilteringData" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,7 @@
       <workItem from="1591160716527" duration="9000" />
       <workItem from="1591332336119" duration="4336000" />
       <workItem from="1591362879882" duration="201000" />
-      <workItem from="1592234247862" duration="2116000" />
+      <workItem from="1592234247862" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="wrote first lamda expression">
       <created>1591099247626</created>
@@ -196,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591352021582</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="my solution for exercise on streams">
+      <created>1592236712154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592236712154</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +218,8 @@
     <MESSAGE value="refactored packages a bit&#10;Added Filterting code using streams" />
     <MESSAGE value="Added mapping streams" />
     <MESSAGE value="Added Reducing streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Reducing streams" />
+    <MESSAGE value="my solution for exercise on streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="my solution for exercise on streams" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1591352040673">
@@ -221,29 +230,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591337855164" />
-    <state x="285" y="52" key="CommitChangelistDialog2" timestamp="1591352156720">
+    <state x="285" y="52" key="CommitChangelistDialog2" timestamp="1592236710928">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591352156720" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1592236094874">
+    <state x="285" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592236710928" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1592239696408">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592236094874" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592239696408" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591114612352" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1592236094871">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1592239696401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592236094871" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592239696401" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591114612351" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1592236094870">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1592239696399">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592236094870" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592239696399" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591114612350" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1592236094873">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1592239696406">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592236094873" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592239696406" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591114612351" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591352160783">
       <screen x="0" y="0" width="1440" height="900" />

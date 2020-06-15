@@ -36,7 +36,7 @@ public class ExcerciseOnStreams {
         );
 
         //1
-        transactions.stream().filter(t->t.year==2011).sorted((t1,t2)->Integer.compare(t1.value,t2.value)).forEach(System.out::print);
+        transactions.stream().filter(t->t.year==2011).sorted(Comparator.comparingInt(t -> t.value)).forEach(System.out::print);
         //2
         System.out.println("2nd ans:");
        transactions.stream().map(transaction -> transaction.trader.city).distinct().forEach(System.out::println);
